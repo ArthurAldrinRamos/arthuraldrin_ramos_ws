@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <style>
+      th,
+      td {
+        font-size: smaller;
+        line-height: 1.5;
+      }
+      tbody {
+        border: 1px solid black;
+      }
+      table {
+        border-collapse: collapse !important;
+      }
+    </style>
+    <h3 style="text-align: center; margin-top: 5px">BIO-DATA</h3>
+    <table width="100%" style="max-width: 580px; margin: auto">
+      <tbody style="border: 0px">
+        <tr width="100%">
+          <td>
+            <table width="100%">
+              <thead>
+                <tr height="0px">
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="black" style="color: white">
+                    PERSONAL DETAILS
+                  </td>
+                  <td colspan="1"></td>
+                  <!-- <td></td> -->
+                  <td rowspan="5" style="border: 1px solid black"><form action="">
+                   
+                    <input type="file" id="myfile" name="myfile" "><br><br>
+                    
+                  </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""><small>Position Desired:</small></label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="1" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Date:</label>
+                      <input type="date" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Name:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="1" style="border-bottom: 1px solid black">
+                    Sex:
+                    <form action="">
+                      <input type="radio" />
+                      <label for="">Male</label>
+                    </form>
+                    <form action="">
+                      <input type="radio" />
+                      <label for="">Female</label>
+                    </form>
+                  </td>
+
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">City Address:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Provincial Address:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Date of Birth:</label>
+                      <input type="date" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">City Address:</label>
+                      <input list="cityAdd" />
+                      <datalist id="cityAdd">
+                        <option value="Luzon"></option>
+                        <option value="Visayas"></option>
+                        <option value="Mindanao"></option>
+                      </datalist>
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Civil Status:</label>
+                      <br />
+                      <input type="radio" />
+                      <label for="">Single</label>
+                      <input type="radio" />
+                      <label for="">Married</label>
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Citizenship:</label>
+                      <br />
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Height:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Weight:</label>
+                      <input type="number" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Religion:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Height:</label>
+                      <input type="number" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Color of Hair:</label>
+                      <br />
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Color of Eyes:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Spouse:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Occupation:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Address:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Number of Children:</label>
+                      <input type="number" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Names of Children:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Birthdates:</label>
+                      <input type="date" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Father's Name:</label>
+                      <br />
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Occupation:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <!-- <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Mother's Name:</label>
+                      <br />
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Occupation:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td> -->
+                  <!-- <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""
+                        >Languages or Dialects you speak or write:</label
+                      >
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""
+                        >Person to contact in case of emergency:</label
+                      >
+                      <input type="text" />
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""
+                        >His/Her Address and Telephone:</label
+                      >
+                      <input type="text" />
+                      <input type="number" />
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 10px">
+              <thead>
+                <tr height="0px">
+                  <td width="20%"></td>
+                  <td width="40%"></td>
+                  <td width="40%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" bgcolor="black" style="color: white">
+                    EDUCATIONAL BACKGROUND
+                  </td>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">&nbsp;</td>
+                  <td
+                    style="text-align: center; border-bottom: 1px solid black"
+                  >
+                    Name & Address of School
+                  </td>
+                  <td
+                    style="text-align: center; border-bottom: 1px solid black"
+                  >
+                    Year Graduated
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Elementary:</label>
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="date">
+                    </form> 
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">High School:</label>
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="date">
+                    </form> 
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Vocational:</label>
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="date">
+                    </form> 
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">College:</label>
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="date">
+                    </form> 
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    
+                    <form action="">
+                      <label for="">&emsp;&emsp;Course:</label>
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="date">
+                    </form> 
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Special Skills:</label>
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <input type="date">
+                    </form> 
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 10px">
+              <thead>
+                <tr height="0px">
+                  <td width="15%"></td>
+                  <td width="15%"></td>
+                  <td width="35%"></td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="black" style="color: white">
+                    EMPLOYMENT RECORD
+                  </td>
+                </tr>
+                <tr style="text-align: center">
+                  <td style="border-bottom: 1px solid black">
+                    From</td>
+                  <td style="border-bottom: 1px solid black">To</td>
+                  <td style="border-bottom: 1px solid black">Position</td>
+                  <td style="border-bottom: 1px solid black">Company</td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="date" />
+                      &nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                    </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="date" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="date" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="date" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 10px">
+              <thead>
+                <tr height="0px">
+                  <td width="15%"></td>
+                  <td width="15%"></td>
+                  <td width="35%"></td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="black" style="color: white">
+                    CHARACTER REFERENCES
+                  </td>
+                </tr>
+                <tr style="text-align: center">
+                  <td colspan="2" style="border-bottom: 1px solid black">
+                    Name
+                  </td>
+                  <td style="border-bottom: 1px solid black">Occupation</td>
+                  <td style="border-bottom: 1px solid black">Address</td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for=""></label>
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      
+                      <input type="text" />
+                      
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <input type="text">
+                    </form>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table width="100%" style="margin-top: 0px">
+              <thead>
+                <tr height="0px">
+                  <td width="30%"></td>
+                  <td width="10%"></td>
+                  <td width="20%"></td>
+                  <td width="10%"></td>
+                  <td width="30%"></td>
+                </tr>
+              </thead>
+              <tbody style="border: 0px">
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black">
+                    <form action="">
+                      <label for="">Res. Cert No. A:</label>
+                      <input type="text" />
+                    </form>
+                  </td>
+                  <td></td>
+                  
+                  <td></td>
+                  
+                  <td></td>
+                  
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black"><form action="">
+                    <label for="">Issued At:</label>
+                    <input type="text" />
+                  </form>:</td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black"><form action="">
+                    <label for="">Issue On:</label>
+                    <input type="text" />
+                  </form></td>
+                  <td></td>
+                  <td
+                    rowspan="3"
+                    style="
+                      border: 1px solid black;
+                      text-align: center;
+                      vertical-align: bottom;
+                    "
+                  >
+                    Right Thumb Mark
+                  </td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  
+                  <td></td>
+                  
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black"><form action="">
+                    <label for="">SSS:</label>
+                    <input type="number" />
+                  </form></td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black"><form action="">
+                    <label for="">TIN:</label>
+                    <input type="number" />
+                  </form></td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black"><form action="">
+                    <label for="">NBI No.:</label>
+                    <input type="number" />
+                  </form></td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <!-- <td style="border-bottom: 1px solid black"></td> -->
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid black"><form action="">
+                    <label for="">Passport No.:</label>
+                    <input type="number" />
+                  </form></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  
+                  <td style="text-align: center">
+                    <form action="">
+                      <textarea name="" id="" cols="3" rows="2"></textarea>
+                    </form>
+                    <br>
+                    Applicant Signature</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
