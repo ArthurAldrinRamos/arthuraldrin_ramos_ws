@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap");
+
+* {
+  /* box-sizing: border-box;
+  margin: 0;
+  padding: 0; */
+  /* background-color: #24252a; */
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("cat.jpg"); */
+  /* background-image: url("cat.jpg"); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #24252a;
+}
+
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5em 10%;
+}
+
+.intro {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  height: 10em;
+  /* padding: 0; */
+  /* margin: 30px; */
+  line-height: 1em;
+}
+
+header,
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("cat.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: auto;
+  background-color: #24252a;
+  height: 10em;
+  /* margin-bottom: 110px; */
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 10%;
+}
+
+.nav_bar {
+  list-style: none;
+  position: relative;
+}
+
+.port {
+  color: purple;
+}
+
+.folio {
+  color: pink;
+}
+
+.nav_bar li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.nav_bar li a:hover {
+  color: #0088a9;
+}
+
+button {
+  color: white;
+  padding: 9px 25px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 1);
+}
+
+.secondbox {
+  margin-top: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-color: #efa3c8;
+  text-align: center;
+  height: 25em;
+}
+
+.aboutme {
+  margin-top: 0;
+  padding-top: 80px;
+  color: white;
+}
+
+.thirdbox {
+  margin-top: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-color: #fad3e7;
+  text-align: center;
+  height: 25em;
+}
+
+.myportfolio {
+  margin-top: 0;
+  padding-top: 60px;
+  color: white;
+}
+
+.thirdbox img {
+  width: 30%;
+  height: 10em;
+}
+
+.portimg {
+  display: inline-block;
+}
+
+.fourthbox {
+  /* padding-top: 60px; */
+  color: white;
+  margin-top: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-color: #0081b4;
+  /* text-align: center; */
+  /* height: 25em; */
+}
+
+.contactme {
+  padding-top: 3em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.cm-left {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.cm-left button {
+  border: 3px;
+  background: #24252a;
+  padding: 9px 25px;
+}
+
+.cm-right {
+  width: 50%;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 10em;
+}
+
+.cm-right form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0em;
+  margin-top: 0em;
+  height: 7em;
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  padding-left: 15em;
+}
